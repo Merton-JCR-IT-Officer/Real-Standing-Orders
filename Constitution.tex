@@ -1,0 +1,621 @@
+\documentclass[11pt,a4paper, oneside]{memoir}
+\usepackage[latin1]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {./img/} }
+\usepackage{hyperref}
+\usepackage{enumitem}
+%\setlist[enumerate]{topsep=0pt, partopsep=0pt, parsep=0pt}
+\setlist[enumerate]{parsep=0pt}
+\setlist[enumerate,1]{label=(\roman*), leftmargin=5.475pt}
+\setlist[enumerate,2]{label=(\arabic*), labelindent=-5.475pt, leftmargin=!}
+\setlist[enumerate,3]{label=(\alph*), labelindent=-5.475pt, leftmargin=!}
+\usepackage{longtable}
+
+\usepackage[ddmmyyyy]{datetime}
+\renewcommand{\dateseparator}{.}
+\usepackage{chngcntr}
+\counterwithout{section}{chapter}
+\renewcommand{\printtoctitle}[1]{\normalfont\huge\textsc #1}
+\setlength{\cftchapternumwidth}{20pt}
+\setlength{\cftsectionnumwidth}{40pt}
+\setlength{\cftsectionindent}{21pt}
+%\usepackage{titlesec}
+\renewcommand{\thechapter}{\Roman{chapter}}
+\renewcommand{\thesection}{\Roman{section}}
+\setlength{\beforechapskip}{0pt}
+\setlength{\afterchapskip}{20pt}
+\renewcommand{\chapnamefont}{\normalfont\huge\scshape\centering}
+\renewcommand{\printchaptername}{\chapnamefont Part}
+\renewcommand{\printchapternum}{\thechapter\space}
+\renewcommand{\afterchapternum}{-\space}
+\renewcommand{\chaptitlefont}{\normalfont\huge\scshape}
+%\titleformat{\chapter}[block]
+%{\centering\scshape\huge}{Part \thechapter~-~}{0pt}{\scshape}
+\setsecnumformat{\llap{\csname the#1\endcsname.\hspace{21.9pt}}}
+\setsecheadstyle{\large\bfseries}
+\setaftersecskip{1.5ex plus .2ex}
+%\titleformat{\section}[block]
+%{\large\bfseries}{\indent{\llap{\thesection.\hspace{21.9pt}}}}{0pt}{}{}
+
+%\titlespacing{\chapter}{0pt}{0pt}{15pt}
+%\titlespacing*{\chapter}{0pt}{0pt}{20pt}
+%\setstocksize{297mm}{210mm}
+\setulmarginsandblock{25mm}{30mm}{*}
+\checkandfixthelayout
+
+\begin{document}
+
+	\pagestyle{plain}
+	\thispagestyle{empty}
+	\begin{center}
+		\null\vfill
+		{\Huge 
+			\textsc{The Constitution}
+			\linebreak
+		}
+		%\begin{Spacing}{1.3}
+		%	\Large
+			%Version: \today
+		%	(Adopted in Trinity Term 2018 and approved by Governing Body on 20 June 2018)
+		%\end{Spacing}
+		\vfill
+		\includegraphics[width=5cm]{mertoncollegejcr}
+		\vfill
+		\begin{Spacing}{1.3}
+			\huge
+			\textbf{Merton College Junior Common Room}
+			\linebreak
+		\end{Spacing}
+		\begin{Spacing}{1.3}
+			\Large
+			Version: 22.06.2022
+			%(Adopted in Trinity Term 2018 and approved by Governing Body on 20 June 2018)
+		\end{Spacing}
+		
+		\vfill
+	\end{center}
+	\cleardoublepage
+	\frontmatter
+	\tableofcontents*
+	\mainmatter
+	\pagestyle{plain}
+	\chapter{The JCR}
+	\section{Name and Interpretation}
+	\label{Art:Name}
+	\begin{enumerate}
+		\item The name of the body hereby constituted shall be Merton College Junior Common Room. 
+		\item Words and phrases in this constitution with initial capital letters shall have the meanings set out in Article \ref{Art:Definitions}.
+		Where required, other definitions are set out in particular Articles.
+		\item A dispute in relation to the interpretation of the Constitution and Standing Orders must be referred to the Executive Committee for resolution, who may seek advice before making a decision.
+	\end{enumerate}
+	\section{Objects} \label{Art:Objects}
+	\begin{enumerate}
+		\item The Objects of the JCR are the advancement of the education of Undergraduates for the public benefit, in particular by:
+		\begin{enumerate}
+			\item representing and advancing the interests of Undergraduates to the relevant authorities both in and outside the College;
+%			\item promoting the responsible and fair government of the College and the University; and
+			\item maintaining and improving the college life of Undergraduates and their relationship with the wider College community; and
+			\item furthering all purposes which are charitable in law and incidental or conducive to the main objects.
+		\end{enumerate}
+	\end{enumerate}
+	\section{Members} \label{Art:Members}
+	\begin{enumerate}
+		\item The following categories of persons shall be Members of the JCR.
+		\begin{enumerate}
+			\item Undergraduates as Ordinary Members.
+			\item Those granted honorary membership of the JCR by resolution of the General Meeting as Honorary Members.
+			Honorary membership may also be removed by resolution of the General Meeting and will in any case lapse after one year unless renewed.
+		\end{enumerate}
+		\item Members of the JCR shall have the right to opt out of membership.  Undergraduates who opt out of membership shall retain the right of appropriate access to the services and facilities provided by the JCR.
+%		\item An Ordinary Member shall cease to be an Ordinary Member if, with the agreement of the Trustee Board, a motion of removal of membership is brought to and passed by Special Resolution of two consecutive Ordinary General Meetings.
+%		Such a motion may not be passed unless the Member concerned has been given notice in writing that the motion is to be proposed, specifying the reasons for the proposed removal of membership, and has been afforded a reasonable opportunity of being heard by or, at the option of the Member concerned, of making written representations to the General Meeting.
+%		\item In agreeing to a motion of removal of membership, the Trustee Board must be satisfied that the Ordinary Member's continued membership is harmful to, or likely to become harmful to, the interests of the JCR.
+	\end{enumerate}
+	\section{Rights of Members}
+	\begin{enumerate}
+		\item Ordinary Membership shall confer the following rights.
+		\begin{enumerate}
+			\item The right to attend, speak and vote at all General Meetings of the JCR.
+			\item The right to vote at Elections to the JCR Committee and in Referenda.
+			\item The right of candidature for any JCR Committee position subject to satisfying the conditions of eligibility.
+			\item The right to enjoy the facilities and events provided by the JCR and to entertain bona fide guests who shall be allowed to use those facilities and attend those events, in accordance with clause \ref{Cl:MemberRestrictions}.
+			Members shall be responsible for their guests.
+			\item Such further rights as may be determined from time to time by the Standing Orders.
+		\end{enumerate}
+		\item Honorary Membership shall confer the following rights.
+		\begin{enumerate}
+			\item The right to attend and speak at all General Meetings of the JCR.
+			\item The right to enjoy the facilities and events provided by the JCR, in accordance with clause \ref{Cl:MemberRestrictions}.
+			\item Such further rights as may be determined from time to time by the Standing Orders.
+		\end{enumerate}
+		\item Only Ordinary Members may vote at a General Meeting or in an Election or Referendum.
+		\item \label{Cl:MemberRestrictions} The right to enjoy the facilities and events provided by the JCR and to entertain bona fide guests may be subject to reasonable restrictions, provided that such restrictions are in accordance with Article \ref{Art:Equality}.
+		Such restrictions may include but are not limited to:
+		\begin{enumerate}
+			\item requirement of reasonable payment;
+			\item a limit on the number of guests that a Member can entertain; and
+			\item a limit on the total number of people enjoying a facility or event.
+		\end{enumerate}
+		\item In exercising their rights, Members shall act in accordance with the Constitution and Standing Orders.
+	\end{enumerate}
+	\section{Equality} \label{Art:Equality}
+	\begin{enumerate}
+		\item The JCR shall not discriminate against any person on the grounds of any Protected Characteristic or any combination of Protected Characteristics, except for the purposes of addressing or reducing inequality between groups distinguished by the Protected Characteristic or combination of Protected Characteristics.
+	\end{enumerate}
+	\section{Amending and reviewing the Constitution} \label{Art:Constitution}
+	\begin{enumerate}
+		\item The Constitution may be amended only by Special Resolution of two consecutive Ordinary General Meetings and with the written consent of the College.
+		\item At least thirty Ordinary Members, or the number closest to fifteen percent of Ordinary Members, whichever is fewer, must have voted in favour of the change on each occasion.
+		\item Abstentions shall not be counted as votes.
+		\item All Ordinary Members must have been given notice (in accordance with Article \ref{Art:Communications}) of the wording of any proposed change to the Constitution at least 48 hours in advance of the first Ordinary General Meeting at which the amendment is proposed.
+		\item No amendment may be made that would have the effect of making the JCR cease to be a charity at law.
+		\item No amendment shall take effect until approved by the Executive Committee.  If necessary, the Executive Committee must seek the prior written consent of the Charity Commission before approving the amendment.
+		\item The Executive Committee and the College must review the provisions of the Constitution at intervals of not more than five years.
+	\end{enumerate}
+	\chapter{Structures}
+	\section{General Meeting} \label{Art:GeneralMeeting}
+	\begin{enumerate}
+		\item The General Meeting shall be the representative body for Members, meeting only in Full Term and within one mile of Carfax unless clause \ref{Cl:OGM-Disaster} applies, and shall have the powers set out in the Constitution.
+		The General Meeting shall regulate its own proceedings by Standing Order, which regulation shall include provision for the requirements of this Article.
+		\item \label{Cl:OGM} The General Meeting shall meet ordinarily at least four times in each Term, on days determined by a schedule of Ordinary General Meetings.
+		\item Every Ordinary Member shall have one vote.
+		In the event of a tie, the person chairing the meeting shall have a second or casting vote.
+		\item There shall be a chair of the General Meeting, responsible for the fair and proper functioning of the General Meeting, who must be an Ordinary Member.
+		The chair shall determine the precise timing and location of General Meetings and shall ensure that Ordinary Members are given suitable notice of all General Meetings.
+		\item The chair of the General Meeting shall be the President, unless determined otherwise by Standing Order.
+		\item The chair shall convene Extraordinary General Meetings in accordance with requirements determined by Standing Order.
+		\item The quorum of the General Meeting shall be ten Ordinary Members, or such higher number as may be determined from time to time by Standing Order.
+		No decision may be made by the General Meeting unless a quorum is present at the time the decision is purported to be made.
+		\item The General Meeting may resolve by Ordinary Resolution that a decision, other than a decision in accordance with Article \ref{Art:Constitution}, be made by Referendum rather than a vote in the meeting.
+		The result of such a Referendum shall be considered a resolution of the General Meeting.
+		\item All decisions and acts of the General Meeting are valid notwithstanding any informality or irregularity in the proceedings (including the vote of a person who was not qualified), unless it is reasonable to conclude that the informality or irregularity had, or may have had, a material impact on the outcome.
+		\item \label{Cl:OGM-Disaster} Clause (x) applies where Ordinary Members are prevented from meeting in person by an event beyond the reasonable control of the JCR, such as war, terrorism, natural disaster, acts of government, plague or epidemic.
+		\begin{enumerate}
+			\item An Ordinary General meeting may be held by telephonic, televisual, electronic, or virtual means of communication provided that that all persons participating in the meeting can be identified by the JCR President or other person chairing the meeting and can understand and communicate with each other simultaneously.  Participation by such means shall be deemed to constitute presence in person and decisions taken at a meeting so held shall be as effective for all purposes as those taken at an Ordinary General Meeting held with the Ordinary members physically present.
+			\item If a secret ballot is required to be held for votes held in an OGM or JCR Committee meeting, the Vice President or other individual designated with the role of counting the vote shall take all reasonable steps to provide for the anonymity of the ballot.
+		\end{enumerate}
+	\end{enumerate}
+	\section{Executive Committee} \label{Art:Executive} \label{Art:TrusteeBoard}
+	\begin{enumerate}
+		\item The Executive Committee shall be responsible for the general control and management of the administration of the JCR and shall have all lawful powers necessary or convenient for that purpose, subject to any restrictions in the Constitution and Standing Orders, including the restriction of any powers to Members.
+		\item The Executive Committee shall consist of the President, Vice President, Treasurer and other Officers designated before election by Standing Order.
+		The members of the Executive Committee are responsible for the day-to-day administration of the JCR, under the supervision and coordination of the President.
+		\item The members of the Executive Committee, both collectively and individually, are directly responsible to the General Meeting.
+		The Executive Committee is responsible for the implementation of resolutions of the General Meeting.
+		\item The Officers on the Executive Committee are the Major Union Offices and shall be elected in accordance with Article \ref{Art:Elections}.
+		\item In exercising its powers, the Executive Committee shall:
+		\begin{enumerate}
+			\item ensure that the JCR's resources, structures and activities are arranged to deliver the Objects;
+			\item ensure that the JCR operates in a fair and democratic manner;
+			\item have due regard to the resolutions of the General Meeting;
+			\item ensure that all Undergraduates have appropriate access to the services and facilities provided by the JCR, regardless of whether or not they are Ordinary Members;
+			\item ensure that the JCR's finances operate efficiently and effectively, in accordance with Articles \ref{Art:Finances} and \ref{Art:TrusteeFinances};
+			\item consider any legal and compliance aspects relating to the JCR's activities; and
+			\item regularly update the General Meeting on its work.
+		\end{enumerate}
+		\item No amendment of the Constitution or Standing Orders invalidates any prior act of the Executive Committee which would have been valid had the amendment not been made.
+		\item For the avoidance of doubt, the members of the Executive Committee are the Charity Trustees of the JCR and the Constitution and Standing Orders shall be interpreted accordingly.
+		No one may be appointed to the Executive Committee if they would be disqualified from acting by clause \ref{Cl:TrusteeRemoval} of Article \ref{Art:TrusteeAccountability}.
+	\end{enumerate}
+	\section{JCR Committee} \label{Art:JCRComm}
+	\begin{enumerate}
+		\item The JCR Committee shall consist of the members of the Executive Committee and other Officers designated by Standing Order.
+		The JCR Committee shall support the Executive Committee.
+		\item The JCR Committee shall be elected by the Ordinary Members from within their own number, in accordance with Article \ref{Art:Elections}.
+		\item Non-Executive members of the JCR Committee are individually responsible to both the General Meeting and the Executive Committee and the JCR Committee is collectively responsible to the General Meeting. 
+		\item In addition to the JCR Committee, there shall be such Non-Committee Officers as may be determined from time to time by the Standing Orders.
+		Any Non-Committee Officer must be an Ordinary Member and the responsibilities and the methods of appointment and accountability of each Non-Committee Officer shall be determined by Standing Order.
+		\item Each Non-Committee Officer is individually responsible to the General Meeting and to the Executive Committee.
+	\end{enumerate}
+	%\section{Trustee Board} 
+	%\begin{enumerate}
+		
+		%\item The members of the Trustee Board are:
+		%\begin{enumerate}
+		%	\item the President, Vice President and Treasurer, elected in accordance with Article \ref{Art:Elections};
+		%	\item up to three further members of the Executive Committee determined by Standing Order, elected in accordance with Article \ref{Art:Elections};
+		%	\item up to three further persons, each nominated by ten Ordinary Members for a set term of office not exceeding two years and appointed by Special Resolution of an Ordinary General Meeting.
+		%\end{enumerate}
+		
+	%\end{enumerate}
+	\section{Sub-Committees and Standing Committees} \label{Art:Sub-Committees}
+	\begin{enumerate}
+		\item The Executive Committee may establish Sub-Committees to support its work; any such Sub-Committee shall have a clearly defined mandate lasting not more than one year.
+		The General Meeting may establish and dissolve permanent Sub-Committees of the Executive Committee by Standing Order.
+		Powers shall only be granted to Sub-Committees in accordance with Article \ref{Art:Delegation}.
+		\item Sub-Committees shall be directly responsible to the Executive Committee and shall provide full and timely reports of their acts and proceedings to the Executive Committee.
+		The Executive Committee shall be responsible to the General Meeting for the acts of its Sub-Committees. 
+		\item The General Meeting may establish Standing Committees, the members of which shall be appointed by the General Meeting.
+		Standing Committees are directly responsible to the General Meeting.  Every Standing Committee shall have a chair who is an Ordinary Member and the chair shall provide regular reports to the General Meeting.
+		\item The General Meeting shall regulate the procedures of Standing Committees and Sub-Committees by Standing Order.
+		All members of Standing Committees and Sub-Committees must be members of the College (as defined by the statutes and bylaws of the College).
+	\end{enumerate}
+	\section{Indemnity of Officers} \label{Art:OfficerIndemnity}
+	\begin{enumerate}
+		\item Every Officer, and every member of any Standing Committee or Sub-Committee shall be indemnified against all losses or liabilities which they may incur in the execution of their office, and no person as described above shall be liable for any loss, damage, or misfortune which may happen to or be incurred by the JCR in the execution of their office or in relation thereto; provided that nothing in this clause shall affect their liability for any wilful or reckless default on their part and subject to clause (ii).
+		\item Clause (i) shall not apply to a Trustee whilst acting as such or in relation thereto, but a Trustee may nevertheless be entitled to indemnity under clause (i) by virtue of a different office.
+	\end{enumerate}
+	\section{Dismissal, removal and resignation of Officers}
+	\label{Art:Dismissal}
+	\begin{enumerate}
+		\item Officers and members of Standing Committees and Sub-Committees may be dismissed for dereliction of duty or for having acted in a manner which discredits or undermines the JCR, in accordance with the procedures established by Standing Order and subject to the Constitution.
+		%\item No Trustee may be removed from an office which they hold ex officio or from the office by virtue of which they are a Trustee otherwise than in accordance with Article \ref{Art:TrusteeAccountability}.
+		\item No person may be removed from office unless they have been given notice in writing that removal is to be proposed, specifying the reasons for the proposed removal, and has been afforded a reasonable opportunity of being heard by or, at the option of the person concerned, of making written representations to the individual or body deciding the matter.
+		\item Any person may resign from an office by written notice to the committee on which they serve or, in the case of a Non-Committee Officer, the Executive Committee.
+		A Trustee may only resign from the Executive Committee in accordance with Article \ref{Art:TrusteeAccountability}.
+	\end{enumerate}
+	\chapter{Standing Orders}
+	\section{Power to regulate} \label{Art:SOPowers}
+	\begin{enumerate}
+		\item The General Meeting shall regulate by Standing Order matters required to be so regulated and may regulate by Standing Order any matters, relating to the governance or administration of the JCR, not expressly provided for by this Constitution.
+		The General Meeting shall be the sole body competent to regulate by Standing Order.
+		\item The provisions of any Standing Order must be consistent with the Constitution and the law.
+		The provisions of any Internal Standing Order must be consistent with the Agreed Standing Orders.
+		\item (iii)	A memorandum is an agreement made between the JCR and any other organisation. They can be changed through negotiation with the other party, and require the signature of the JCR President and the person responsible for the other organisation to have effect.
+		\item The making, amendment or repeal of Agreed Standing Orders shall require the written consent of the College.
+		\item The making, amendment or repeal of Standing Orders shall not take effect until approved by the Executive Committee.
+	\end{enumerate}
+	\section{Requirements in the General Meeting}
+	\begin{enumerate} \label{Art:SORequirements}
+		\item Subject to Article \ref{Art:SOPowers}, The General Meeting may make, repeal or amend Standing Orders by Ordinary Resolution of two consecutive Ordinary General Meetings, or by unanimous decision of one Ordinary General Meeting. 
+		\item Abstentions shall not be counted as votes.
+		\item All Ordinary Members must have been given notice (in accordance with Article \ref{Art:Communications}) of the wording of any proposed change to the Standing Orders at least 48 hours in advance of the final Ordinary General Meeting at which the change is decided.
+	\end{enumerate}
+	\section{Affiliations} \label{Art:Affiliations}
+	\begin{enumerate}
+		\item Affiliation to External Organisations shall be regulated by Agreed Standing Order.  This shall include provision for a Referendum to be called, at intervals of not more than one year, on the continued affiliation to an External Organisation, if requested by some predetermined proportion of members (not exceeding five percent).
+		\item The JCR shall not affiliate to an External Organisation or renew such an affiliation without the approval of the Ordinary Members, by resolution of the General Meeting or by Referendum.
+	\end{enumerate}
+	\section{Complaints} \label{Art:Complaints}
+	\begin{enumerate}
+		\item There shall be a complaints procedure, operated by the Executive Committee and regulated by Agreed Standing Order, which shall include a right of appeal to an independent person appointed by the College.
+		\item Any Undergraduate shall have the right to make a complaint about any aspect of the running of the JCR or the actions of any person involved in the administration of the JCR (insofar as those actions relate to their duties and responsibilities to the JCR), including that an Election was not free and fair in accordance with Article \ref{Art:Elections}.
+		\item Additionally, any Undergraduate shall have the right to complain that they have been unfairly disadvantaged by reason of their having exercised the right to opt out of membership under Article \ref{Art:Members}.
+	\end{enumerate}
+	\section{Elections} \label{Art:Elections}
+	\begin{enumerate}
+		\item The Executive Committee shall take all reasonable steps to ensure that Elections of Officers are free and fair.
+		\item The procedures for Elections shall be regulated by Standing Order, which in the case of Elections to Major Union Offices must be by Agreed Standing Order.
+		\item Election to a Major Union Office shall be by secret ballot of all Ordinary Members.
+	\end{enumerate}
+	\section{Referenda} \label{Art:Referenda}
+	\begin{enumerate}
+		\item The General Meeting shall establish a procedure by Standing Order to hold Referenda on issues of relevance to the JCR.  Voting in a Referendum shall be by secret ballot of all Ordinary Members.
+	\end{enumerate}
+	\section{Finances} \label{Art:Finances}
+	\begin{enumerate}
+		\item The Executive Committee shall be responsible for the management and control of the JCR's finances, including setting a budget, maintaining financial and accounting records and ensuring that all funds are applied to the Objects in accordance with Article \ref{Art:Application}.
+		\item By and with the consent of the Executive Committee, the Treasurer shall be responsible for the day-to-day management of the JCR's finances with the support of such other persons to whom power is delegated in accordance with Article \ref{Art:Delegation}.
+		\item The financial procedures of the JCR, including provisions for delegation by the Executive Committee (in accordance with Article \ref{Art:Delegation}) and the requirements of Article \ref{Art:TrusteeFinances}, shall be regulated by Agreed Standing Order.
+	\end{enumerate}
+	\chapter{The Executive Committee}
+	\section{Meetings of the Executive Committee} \label{Art:TrusteeDecisions}
+	\begin{enumerate}
+		\item The Executive Committee may regulate its own proceedings subject to the Constitution.  The Executive Committee shall meet at least three times in each Term.
+		Unless the General Meeting decides otherwise, the President shall be the chair and the Vice President shall be the secretary, except in accordance with clause \ref{Cl:ExecChair}. 
+		\item Any Trustee may call a meeting of the Executive Committee, and the secretary must call a meeting of the Executive Committee if requested to do so by a Trustee.
+		All Trustees shall be given at least two days' notice notice of an Executive Committee meeting unless all the Trustees agree or urgent circumstances require shorter notice.
+		\item An Executive Committee meeting may be held in person, or by suitable Electronic Means, agreed by the Executive Committee, by means of which each participant may communicate with all the other participants.
+		Every notice calling an Executive Committee meeting must specify:
+		\begin{enumerate}
+			\item the place, date and time of the meeting;
+			\item the general particulars of all business to be considered at the meeting; and
+			\item if it is anticipated that Trustees participating will not all be in the same place, how it is proposed that they should communicate with each other during the meeting.
+		\end{enumerate}
+		\item \label{Cl:ExecChair} The chair shall chair meetings.
+		If the chair is unwilling to preside or not present within ten minutes of the appointed start time of the meeting, the Trustees present may appoint one of their number to chair that meeting.
+		The chair shall have only the functions and powers conferred by the Constitution and Standing Orders or delegated to them in writing by the Executive Committee.
+		\item Questions arising at a meeting must be decided by a majority of votes.
+		In the event of a tie, the person who chairs the meeting shall have a second or casting vote.
+		\item No decision may be made by a meeting of the Executive Committee unless a quorum is present at the time the decision is purported to be made.
+		The quorum shall be two or the number nearest to one-third of the total number of Trustees, whichever is greater or such larger number as may be decided from time to time by the Executive Committee.
+		\item Guests or observers may attend meetings of the Executive Committee at the discretion of the person who chairs the meeting.
+		\item The Executive Committee may, with the assent of at least two-thirds of Trustees, take a decision by a resolution in writing (including by Electronic Means), provided the assenting Trustees constitute a quorum.
+	\end{enumerate}
+	\section{Accountability and removal of Trustees}
+	 \label{Art:TrusteeAccountability}
+	 \begin{enumerate}
+	 	\item The Executive Committee and each individual Trustee shall be accountable to the Members, and in particular the General Meeting, for their actions.
+	 	\item By Special Resolution of the General Meeting or by Referendum, Members may direct the Executive Committee to take, or refrain from taking, particular action.
+	 	A Direction does not invalidate anything which the Executive Committee has done before the Direction is given.
+	 	The Trustees have legal duties as Charity Trustees, which include ensuring that the JCR's funds are used prudently for purposes within the Objects.
+	 	If a Direction is given which the Executive Committee reasonably considers incompatible with these duties, then it will be unable to implement or endorse the Direction or part of the Direction and, to that extent, the Direction shall not have effect. 
+	 	\item \label{Cl:TrusteeRemoval} A Trustee shall cease to be a Trustee only if:
+	 	\begin{enumerate}
+	 		\item they are disqualified from acting as a Charity Trustee by virtue of sections 178 and 179 of the Charities Act 2011;
+	 		\item they are removed in accordance with clause \ref{Cl:TrusteeNoCon};
+	 		\item they cease to be an Ordinary Member;
+	 		\item their term of office comes to an end;
+	 		\item in the written opinion, given to the JCR, of a registered medical practitioner treating that person, they have become physically or mentally incapable of acting as a Charity Trustee and may remain so for more than three months;
+	 		\item they resign as a Trustee by written notice to the JCR (but only if at least two Trustees will remain in office when the notice of resignation is to take effect); or
+	 		\item they are absent without the permission of the Executive Committee from three consecutive meetings of the Executive Committee and the Executive Committee resolves that their office be vacated.
+	 	\end{enumerate}
+	 	\item \label{Cl:TrusteeNoCon} A Trustee shall cease to be a Trustee if the General Meeting passes a motion of no confidence in the Trustee by Special Resolution and the decision is ratified by a Referendum.
+	 	The General Meeting shall not pass such a motion unless the Trustee concerned has been given notice in writing that the motion is to be proposed, specifying the reasons for the proposed removal from office, and has been afforded a reasonable opportunity of being heard by or, at the option of the Trustee concerned, of making written representations to the General Meeting.
+	 	%\item A Trustee who is not a Member shall have the right to attend and speak at General Meetings, but may not vote.
+	 \end{enumerate}
+	\section{Finances and reports} \label{Art:TrusteeFinances}
+	\begin{enumerate}
+		\item The Executive Committee must make and publish budgets, accounts, and financial reports in accordance with Agreed Standing Order, and is accountable to the General Meeting for the expenditure of funds. 
+		\item The JCR shall by Agreed Standing Order make provision for the administration and accountability of the finances of the JCR.
+		\item The accounts of the JCR must be internally audited and subjected to such other examination as may be required by the Charities Act 2011 and other applicable legislation.
+		\item All financial and accounting records must be preserved for at least six years and submitted to the college archivist.
+	\end{enumerate}
+	\section{Minutes and records}
+	\label{Art:Minutes}
+	\begin{enumerate}
+		\item The Executive Committee shall be responsible for taking and keeping Minutes of all:
+		\begin{enumerate}
+			\item resolutions of the General Meeting, of the Executive Committee and of any Sub-Committee of the Executive Committee;
+			\item proceedings of the General Meeting, of the Executive Committee and of any Sub-Committee of the Executive Committee, including:
+			\begin{enumerate}
+				\item the names of the Trustees present at the meeting (and in the case of a Sub-Committee, the names of any other members present); and
+				\item where appropriate, the reasons for the resolutions.
+			\end{enumerate}
+		\end{enumerate}
+			\item Any Minutes signed by the person chairing the meeting, or by the person chairing the next succeeding meeting, shall, as against any Member or Trustee, be sufficient evidence of the resolution or proceedings.
+			\item All Minutes shall be retained for at least ten years from the date of the resolution or meeting.  Any such Minutes shall be made available to Ordinary Members on the JCR Website, except to the extent that the Minutes relate to any reserved or confidential matters.
+			\item The Executive Committee, and in particular the secretary to the Executive Committee, shall retain all documents which might reasonably be expected to be of value to the JCR in the future.
+	\end{enumerate}
+	\section{Entitlement to benefit} \label{Art:TrusteeBenefit}
+	\begin{enumerate}
+		\item No Trustee or Connected Person may:
+		\begin{enumerate}
+			\item buy or receive goods or services from the JCR on terms preferential to those applicable to Undergraduates;
+			\item sell goods, services or any interest in land to the JCR;
+			\item be employed by, or receive any remuneration from, the JCR;
+			\item receive any other Financial Benefit from the JCR;
+		\end{enumerate}
+		unless the payment is permitted by this Article, or authorised by the court or the Charity Commission.
+		\item \label{Cl:BeneficiaryBenefit} A Trustee or Connected Person may receive a benefit from the JCR in the capacity of a beneficiary of the JCR.
+		\item A Trustee or Connected Person may enter into a contract for the supply of services, or of goods that are supplied in connection with the provision of services, to the JCR where that is permitted in accordance with, and subject to the conditions in, section 185 of the Charities Act 2011.
+		\item \label{Cl:BenefitGoods0} Subject to clause \ref{Cl:BenefitGoods} of this Article, a Trustee or Connected Person may provide the JCR with goods that are not supplied in connection with services provided to the JCR by the Trustee or Connected Person.
+		%\item A Trustee or Connected Person may receive interest on money lent to the JCR at a reasonable and proper rate which must be not more than the Bank of England bank rate (also known as the base rate).
+		\item A Trustee or Connected Person may receive rent for premises let by the Trustee or Connected Person to the JCR. The amount of the rent and the other terms of the lease must be reasonable and proper. The Trustee concerned must withdraw from any meeting at which such a proposal or the rent or other terms of the lease are under discussion.
+		\item A Trustee or Connected Person may take part in the normal trading and fundraising activities of the JCR on the same terms as Undergraduates.
+		\item \label{Cl:BenefitGoods} The JCR and the Executive Committee may only rely upon the authority provided by clause \ref{Cl:BenefitGoods0} if each of the following conditions is satisfied.
+		\begin{enumerate}
+			\item The amount or maximum amount of the payment for the goods is set out in an agreement in writing between the JCR and the Trustee or Connected Person supplying the goods (`the supplier') under which the supplier is to supply the goods in question to or on behalf of the JCR.
+			\item The amount or maximum amount of the payment for the goods does not exceed what is reasonable in the circumstances for the supply of the goods in question.
+			\item The other Trustees are satisfied that it is in the best interests of the charity to contract with the supplier rather than with someone who is not a Trustee or Connected Person.
+			In reaching that decision the Executive Committee must balance the advantage of contracting with a Trustee or Connected Person against the disadvantages of doing so.
+			\item The supplier is absent from the part of any meeting at which there is discussion of the proposal to enter into a contract or arrangement with the supplier with regard to the supply of goods to the JCR.
+			\item The supplier does not vote on any such matter and is not to be counted when calculating whether a quorum is present at the meeting.
+			\item The reason for the decision is recorded in the Minutes.
+			\item A majority of the Trustees then in office are not in receipt of remuneration or payments authorised by this Article, other than in accordance with clauses \ref{Cl:BeneficiaryBenefit} and \ref{Cl:BenefitGift}.
+		\end{enumerate}
+		\item \label{Cl:BenefitGift} A Trustee or Connected Person may receive a small gift from the JCR, in recognition of service rendered, provided that:
+		\begin{enumerate}
+			\item the total value of all gifts given in the year is small;
+			\item the Executive Committee is satisfied that the gift is in the best interests of the JCR;
+			\item the General Meeting has approved the gift, by Ordinary Resolution.
+		\end{enumerate}
+		\item In clauses \ref{Cl:BeneficiaryBenefit} to \ref{Cl:BenefitGift}, ``the JCR'' includes any company in which the JCR:
+		\begin{enumerate}
+			\item holds more than fifty percent of the shares; or
+			\item controls more than fifty percent of the voting rights attached to the shares; or
+			\item has the right to appoint one or more Trustees to the board of the company.
+		\end{enumerate}
+	\end{enumerate}
+	\section{Conflicts of Interest}
+	\begin{enumerate}
+		\item Subject to clauses (ii) and (iii), whenever a Trustee is in a situation that gives rise to, or is reasonably likely to give rise to, a Conflict of Interest, the Trustee shall:
+		\begin{enumerate}
+			\item declare the nature and extent of the interest before discussion begins on the matter;
+			\item withdraw from that meeting or discussion for that item after providing any information requested by the other Trustees;
+			\item not be counted in the quorum for that part of the meeting or decision-making process;
+			\item be absent during the vote and have no vote on the matter; and
+			\item comply with any other requirement which the other Trustees resolve is necessary.
+		\end{enumerate}
+		\item When a Trustee has a Conflict of Interest, the other Trustees who do not have a Conflict of Interest (if they form a quorum without counting the Trustee and are satisfied that it is in the JCR's best interests to do so) may by resolution passed in the absence of the Trustee permit the Trustee to:
+		\begin{enumerate}
+			\item continue to participate in discussions leading to the making of a decision, or to vote, or both;
+			\item take any other action, not otherwise authorised, which does not involve the receipt by the Trustee or a Connected Person of any payment or material benefit from the JCR; or
+			\item refrain from taking any step required to remove the conflict.
+		\end{enumerate}
+		\item In the event that the Executive Committee is unable to resolve a matter due to Conflicts of Interest, any Trustee may refer the matter to the College for a recommendation.
+		All Trustees, regardless of Conflicts of Interest, may participate in a decision to implement such a recommendation of the College and be counted in the quorum.
+	\end{enumerate}
+	\section{Powers of the Executive Committee}
+	\label{Art:TrusteePowers}
+	\begin{enumerate}
+		\item Subject to Article \ref{Art:TrusteeBoard}, to further the Objects, but not for any other purpose, the Executive Committee may:
+		\begin{enumerate}
+			\item provide services and facilities to Undergraduates;
+			\item raise funds, without undertaking taxable trading activity and in accordance with any relevant statutory regulations;
+			\item buy, take on lease or in exchange, hire or otherwise acquire any property and maintain and equip it for use;
+			\item sell, lease or otherwise dispose of all or any part of the property belonging to the JCR, in accordance with the Charities Act 2011;
+			%\item borrow money and charge the whole or any part of the property belonging to the JCR as security for the repayment of the money borrowed, in accordance with the Charities Act 2011;
+			\item cooperate with other charities, voluntary bodies and statutory authorities and exchange information and advice with them;
+			\item establish or support any charitable trusts, associations or institutions formed for any of the charitable purposes included in the Objects;
+			\item acquire, merge with, or enter into any partnership or joint venture arrangement with any other charity formed for any of the Objects;
+			\item set aside income as a reserve against future expenditure but only in accordance with a written policy about reserves;
+			\item obtain and pay for such goods and services as are necessary for carrying out the work of the JCR;
+			\item open and operate such bank and other accounts as the Executive Committee considers necessary, and invest funds and delegate the management of funds in the same manner and subject to the same conditions as the trustees of a trust are permitted to do by the Trustee Act 2000; and
+			\item do all other lawful things as further the Objects.
+		\end{enumerate}
+		\item The Executive Committee shall not take any action or make any decision unless it is satisfied that any liabilities which are likely to result will be met out of the JCR's assets or covered by suitable insurance.
+	\end{enumerate}
+	\section{Delegation by the Executive Committee} \label{Art:Delegation}
+	\begin{enumerate}
+		\item In accordance with Articles \ref{Art:TrusteeBoard} and \ref{Art:Sub-Committees}, the Executive Committee may delegate to an Officer, or to one or more Sub-Committees, the exercise of such functions and powers as are specified in the delegation, other than the power of delegation.
+		\item A delegation may not permit any expenditure to be incurred on behalf of the JCR, except where authorised by the Executive Committee or in accordance with a budget previously agreed with the Executive Committee.
+		\item The Executive Committee may impose such conditions and limitations on a delegation as it sees fit.
+		\item A Sub-Committee must contain at least one Trustee.  All acts and proceedings of a Sub-Committee shall be fully and promptly reported to the Executive Committee.
+		\item The Executive Committee may revoke or alter a delegation.
+	\end{enumerate}
+	\section{Indemnity of Trustees}
+	\begin{enumerate}
+		\item Notwithstanding Articles \ref{Art:OfficerIndemnity} and \ref{Art:TrusteeBenefit}, and without prejudice to any other indemnity to which a Trustee may otherwise be entitled, each Trustee shall be indemnified out of the JCR's assets:
+		\begin{enumerate}
+			\item against all losses, expenses or liabilities that they incur in the execution of their office or in relation thereto, except those incurred by a breach of trust, breach of duty or by wilful or reckless default on their part; and
+			\item in relation to any breach of trust or breach of duty, against all losses, expenses or liabilities that they incur in the execution of their office or in relation thereto, to the extent that relief is granted by the court or the Charity Commission.
+		\end{enumerate}
+	\end{enumerate}
+	\section{Dissolution: responsibilities of Trustees}
+	\begin{enumerate}
+		\item If the Members resolve to dissolve the JCR, the Trustees shall remain in office as Charity Trustees and be responsible for winding up the affairs of the JCR in accordance with this Article.
+		\item The Executive Committee must collect in all the assets of the JCR and must pay or make provision for all the liabilities of the JCR.
+		\item If any property or money remains, it must not be paid or distributed to Members.  It must instead be given or transferred to the College for application within the Objects, unless the Charity Commission approves an alternative application of the property or money in writing in advance.
+		\item The Executive Committee must draw up final accounts in accordance with Article \ref{Art:TrusteeFinances}.
+	\end{enumerate}
+	\section{Saving provisions}
+	\begin{enumerate}
+		\item \label{Cl:Saving1}All acts done at a meeting of the Executive Committee (or of a Sub-Committee of the Executive Committee), and all decisions made by the Executive Committee (or by a Sub-Committee of the Executive Committee), are valid notwithstanding the participation in any vote of a Trustee who at the time of the meeting or decision:
+		\begin{enumerate}
+			\item was disqualified from holding office;
+			\item had previously retired or had been required by the Constitution to vacate office;
+			\item was not entitled to vote on the matter, whether by reason of a Conflict of Interest or otherwise;
+		\end{enumerate}
+		if without the vote of that Trustee and without that Trustee being counted in the quorum, the act has been done, or the decision has been made, in accordance with Article \ref{Art:TrusteeDecisions}.
+		\item Clause \ref{Cl:Saving1} shall not permit a Trustee to keep any benefit conferred on them by a resolution of the Executive Committee or a Sub-Committee of the Executive Committee if the resolution would otherwise have been void.
+	\end{enumerate}
+	\chapter{Definitions and miscellaneous provisions}
+	\section{Communications} \label{Art:Communications}
+	\begin{enumerate}
+		\item \label{Cl:Notice1} Notices and other documents to be served on Members or Trustees under the Constitution may be served:
+		\begin{enumerate}
+			\item by hand, or
+			\item by suitable Electronic Means.
+		\end{enumerate}
+		\item Any notice given in accordance with the Constitution is to be treated for all purposes as having been received:
+		\begin{enumerate}
+			\item immediately on being sent by Electronic Means or handed to the recipient personally;
+			\item two Term-time Days after being delivered by hand to the College for the recipient; or, if earlier,
+			\item as soon as the recipient acknowledges actual receipt.
+		\end{enumerate}
+		\item Failure to give notice in accordance with clause \ref{Cl:Notice1} does not affect the validity of anything done, or purportedly done, if the person or body required to give notice acted in good faith and applied their best efforts to give effective notice.
+		\item In the Constitution, any reference to a ``document'', or requirement that a notice, decision or document be ``written'' or ``in writing'', includes a reference to a document sent, notice given or decision communicated by Electronic Means, in accordance with this Article.
+	\end{enumerate}
+	\section{Application of income and property} \label{Art:Application}
+	\begin{enumerate}
+		\item The income and property of the JCR shall be applied solely towards the promotion of the Objects.
+		\item A Trustee is entitled to be reimbursed from the property of the JCR or may pay out of such property reasonable expenses properly incurred by them when acting on behalf of the JCR.
+		\item A Trustee may benefit from trustee indemnity insurance cover purchased at the JCR's expense in accordance with, and subject to the conditions in, section 189 of the Charities Act 2011.
+		\item None of the income or property of the charity may be paid or transferred directly or indirectly by way of dividend bonus or otherwise by way of profit to any Member.  Subject to Article \ref{Art:TrusteeBenefit}, this does not prevent a Member from receiving:
+		\begin{enumerate}
+			\item a benefit from the JCR in their capacity of a beneficiary of the JCR;
+			\item reasonable and proper remuneration for any goods or services supplied to the JCR;
+			%\item interest on money lent to the JCR at a reasonable and proper rate;
+			\item reasonable and proper rent for premises let by a Member to the JCR;
+			\item payments to a Member in their capacity as an employee of the JCR.
+		\end{enumerate}
+	\end{enumerate}
+	\section{Dissolution}
+	\begin{enumerate}
+		\item The JCR may be dissolved only by Special Resolution of two consecutive Ordinary General Meetings and with the written consent of the College.
+		\item At least thirty Ordinary Members, or the number closest to fifteen percent of Ordinary Members, whichever is fewer, must have voted in favour of dissolution on each occasion.  Abstentions shall not be counted as votes.
+		\item All Members must have been given notice (in accordance with Article \ref{Art:Communications}) at least seven days in advance of the first Ordinary General Meeting at which dissolution is proposed.
+	\end{enumerate}
+	\section{Definitions} \label{Art:Definitions}
+	\begin{enumerate}
+		\item In this constitution, the following terms have the following meanings.
+		\begin{longtable}{|p{0.3\textwidth}|p{0.7\textwidth}|}
+			\hline
+			Term                            & Meaning
+			\\ \hline \endhead
+			``Agreed Standing Order''         & an agreed standing order made pursuant to Articles \ref{Art:SOPowers} and \ref{Art:SORequirements}  
+			\\ \hline
+			``Article''                       & an Article of this constitution                                                  \\ \hline
+			``Charity Commission''            & the Charity Commission for England and Wales                                                                                                                                                                                                                                                                                                                                                                                                                         \\ \hline
+			``College''                       & The Warden and Scholars of the House or College of Scholars of Merton in the University of Oxford                                                                                                                                                                                                                                                                                                                                                                                \\ \hline
+			``Conflict of Interest''          & any direct or indirect interest of a Trustee (whether personal, by virtue of a duty of loyalty to another organisation, or otherwise) that conflicts or might conflict with the interests of the JCR, except an interest which arises solely from a benefit or potential benefit in their capacity as a beneficiary of the JCR (provided that the benefit or potential benefit is generally available to a class of people for whose benefit the JCR is established) \\ \hline
+			``the Constitution''              & this constitution                                                                                                                                                                                                                                                                                                                                                                                                                                                    \\ \hline
+			``Direction''                     & a direction made by the General Meeting in accordance with Article \ref{Art:TrusteeAccountability} 
+			\\ \hline
+			``Election''                      & an election conducted in accordance with Article \ref{Art:Elections}                                                                                                                                                                                                                                                                                                                                                                                                               \\ \hline
+			``Electronic Means''              & communications addressed to specified individuals by email or, in relation to meetings, by telephone conference call or video conference or, in any case, by such other similar means as may be determined by Standing Order 
+			\\ \hline
+			``Executive Committee''           & the body defined in Article \ref{Art:Executive}
+			\\ \hline
+			``Extraordinary General Meeting'' & a meeting of the General Meeting in accordance with clause (vi) of Article \ref{Art:GeneralMeeting}
+			\\ \hline
+			``Financial Benefit''             & a benefit, direct or indirect, which is either money or has a monetary value
+			\\ \hline
+			``General Meeting''               & the body defined in Article \ref{Art:GeneralMeeting} 
+			\\ \hline
+			``General Meetings'' & meetings of the General Meeting
+			\\ \hline
+			``Honorary Member''               & a person holding honorary membership as defined in Article \ref{Art:Members}
+			\\ \hline
+			``Internal Standing Order''       & an internal standing order made pursuant to Articles \ref{Art:SOPowers} and \ref{Art:SORequirements}
+			\\ \hline
+			``the JCR''                       & Merton College Junior Common Room, the body established by this constitution
+			\\ \hline
+			``JCR Committee''                 & the body defined in Article \ref{Art:JCRComm}  
+			\\ \hline
+			``Member''                        & a person holding membership as defined in Article \ref{Art:Members}
+			\\ \hline
+			``Non-Committee''                 & in relation to a person, that they are not a member of the JCR Committee
+			\\ \hline
+			``Non-Executive''                 & in relation to a person, that they are not a member of the Executive Committee
+			\\ \hline
+			``Objects''                       & the objects of the JCR set out in Article \ref{Art:Objects}
+			\\ \hline
+			``Officer''                       & a member of the Executive Committee, the JCR Committee, or any other person so defined                                                                                                                                                                                                                                                                                                                                                                               \\ \hline
+			``Ordinary Member''               & a person defined as an ordinary member by Article \ref{Art:Members}
+			\\ \hline
+			``Ordinary General Meeting''      & a meeting of the General Meeting in accordance with clause \ref{Cl:OGM} of Article \ref{Art:GeneralMeeting}
+			\\ \hline
+			``Ordinary Resolution''           & a decision made by simple majority vote, meaning more votes cast in favour than against
+			\\ \hline
+			``President''                     & the Officer referred to as such in Article \ref{Art:Executive} 
+			\\ \hline
+			``Protected Characteristic''      & one of age, disability, gender or gender reassignment, marriage or civil partnership, pregnancy or maternity, paternity, non-binary parenting, race, religion or religious belief, nationality, sex, sexual orientation and educational or social background (within the meanings of the Equality Act 2010 where applicable)
+			\\ \hline
+			``Referendum''                    & a referendum held in accordance with Article \ref{Art:Referenda}
+			\\ \hline
+			``Special Resolution''            & a decision made by two-thirds majority vote, meaning more than twice as many votes in favour than against 
+			\\ \hline
+			``Standing Committee''            & a standing committee established in accordance with Article \ref{Art:Sub-Committees}
+			\\ \hline
+			``Standing Order''                & Agreed Standing Order or Internal Standing Order
+			\\ \hline
+			``Sub-Committee''                 & a sub-committee of the Executive Committee established in accordance with Article \ref{Art:Sub-Committees}
+			\\ \hline
+			``Term-time Day''                 & a 24 hour period during Full Term
+			\\ \hline
+			``Treasurer''                     & the Officer referred to as such in Article \ref{Art:Executive}
+			\\ \hline
+			``Trustee''                       & a member of the Executive Committee
+			\\ \hline
+			%``Trustee Board''                 & the body defined in Article \ref{Art:TrusteeBoard} 
+			%\\ \hline
+			``Undergraduate''                 & a Junior Member of the College (as defined by the statutes and bylaws of the College), who is an undergraduate \\ \hline
+			``University''                    & the Chancellor, Masters and Scholars of the University of Oxford
+			\\ \hline
+			``Vice President''                & the Officer referred to as such in Article \ref{Art:Executive}
+			\\ \hline
+		\end{longtable}
+		\item Any reference in the Constitution to an act of parliament or a provision of an act of parliament includes a reference to that act or provision as re-enacted or amended from time to time and to any subordinate legislation made under it.
+		\item In the Constitution, Connected Person means:
+		\begin{enumerate}
+			\item \label{Cl:CPrelative} a child, parent, grandchild, grandparent, brother or sister of the Trustee;
+			\item \label{Cl:CPpartner} the spouse or civil partner of the Trustee, or of any person falling within point \ref{Cl:CPrelative} above;
+			\item \label{Cl:CPbusiness} a person carrying on business in partnership with the Trustee or with any person falling within point \ref{Cl:CPrelative} or \ref{Cl:CPpartner} above;
+			\item an institution which is controlled -
+			\begin{enumerate}
+				\item \label{Cl:CPinstitution} by the Trustee or any person falling within point \ref{Cl:CPrelative}, \ref{Cl:CPpartner} or \ref{Cl:CPbusiness} above; or
+				\item by two or more persons falling within sub-point \ref{Cl:CPinstitution}, when taken together
+			\end{enumerate}
+			\item a body corporate in which -
+			\begin{enumerate}
+				\item \label{Cl:CPbody} the Trustee or any Connected Person falling within points \ref{Cl:CPrelative}, \ref{Cl:CPpartner} or \ref{Cl:CPbusiness}  has a substantial interest; or
+				\item two or more persons falling within sub-point \ref{Cl:CPbody}, when taken together, have a substantial interest.
+			\end{enumerate}
+			\item Sections 350-352 of the Charities Act 2011 apply for the purpose of interpreting the terms in this clause.
+		\end{enumerate}
+		\item External Organisation, Major Union Office and Governing Body shall have the meanings given in section 22 of the Education Act 1994.
+		\item Carfax, Term, Full Term, Michaelmas Term, Hilary Term and Trinity Term shall have the meanings given in the statutes and regulations of the University.
+		\item Charity Trustee shall have the meaning given in the Charities Act 2011.
+	\end{enumerate}
+	\section{Commencement}
+	\begin{enumerate}
+		\item All previous Constitutions are hereby expressly revoked.  The Constitution shall have effect from 25 June 2022.
+		\item Standing Orders approved by the General Meeting in Trinity Term 2022 shall have effect immediately, and the Officers previously elected shall continue in office.
+	\end{enumerate}
+	\section{Emergencies}
+	\begin{enumerate}
+		\item In the event of unforeseen circumstances outside of the JCR's control, any obligation under this Constitution or the Standing Orders, except under this Article, may be waived with the agreement of the Executive Committee and College. The procedure for doing so shall be specified by an Agreed Standing Order.
+	\end{enumerate}
+\end{document}
