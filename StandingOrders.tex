@@ -1,0 +1,77 @@
+\documentclass{standingorders}
+
+\usepackage{graphicx}
+\graphicspath{ {img/} }
+\usepackage[ddmmyyyy]{datetime}
+\renewcommand{\dateseparator}{.}
+
+\usepackage{nameref}
+\usepackage{zref-xr}
+\zxrsetup{toltxlabel}
+\zexternaldocument*{Constitution}
+\usepackage{hyperref}
+
+\if@printeddoc
+\hypersetup{hidelinks=true}
+\else
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Merton JCR Standing Orders},
+    pdfpagemode=FullScreen,
+    }
+	\urlstyle{same}
+\fi
+
+
+
+\begin{document}
+	\thispagestyle{empty}
+	\begin{center}
+		\includegraphics[width=5cm]{mertoncollegejcr}
+		\begin{vplace}[0.1] \Huge  
+			\textbf{Standing Orders}
+		\end{vplace}
+		{ {\Large
+			Version: \today}\\
+			\small As of the 4\textsuperscript{th} OGM MT24
+			
+		}
+		\vfill
+	\end{center}
+	\cleardoublepage
+	\frontmatter
+	\tableofcontents
+	\include{tex/Preface-Introduction}
+	
+	\mainmatter
+	\part{Standing Orders}
+	\include{tex/SO_General}
+	\include{tex/SO_Committees}
+	\include{tex/SO_Roles}
+	\include{tex/SO_Elections}
+	\include{tex/SO_Referenda}
+	\include{tex/SO_GeneralMeeting}
+	\include{tex/SO_RoomBallot}
+	\include{tex/SO_Finances}
+	\include{tex/SO_ExternalAffiliations}
+	\include{tex/SO_Complaints}
+	\include{tex/SO_Emergencies}
+	\part{Appendices}
+	\begin{appendices}
+		\include{tex/Appendix_Definitions}
+        \include{tex/Appendix_IntDefinitions}
+		\include{tex/Appendix_RoomBallot}
+		\include{tex/Appendix_CharitiesAndArts}
+		\include{tex/Appendix_CharitiesBallot}
+		\include{tex/Appendix_STV}
+		\include{tex/Appendix_WinterBall.tex}
+	\end{appendices}
+	\part{Memoranda}
+	\begin{appendices}
+		\setcounter{chapter}{12}
+		\include{tex/Memoranda}
+	\end{appendices}
+\end{document}
